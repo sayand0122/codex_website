@@ -1,0 +1,177 @@
+/* ===== HEX CODES ===== */
+/* #25dbd2 - light blue
+#3573be - dark blue */
+
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.home-div {
+    height: 300px;
+}
+
+.navbar {
+    background-color: #393e46;
+}
+
+.navbar .logo {
+    height: 40px;
+    width: 45px;
+}
+
+.navbar a {
+    margin-left: 15px;
+    margin-right: 15px;
+    font-size: 18px;
+}
+
+.navbar .dropdown-menu a:hover {
+    background-color: #393e46;
+    width: 87%;
+    border-radius: 15px;
+    color: white;
+}
+
+.navbar .navbar-collapse {
+    transition: ease-in-out 0.5s, height 0.5s, transform 0.5s;
+}
+
+
+/* ===== HOME SECTION ===== */
+
+.home-images {
+    box-align: top;
+}
+
+.title-img {
+    height: 90px;
+    width: 590px;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+@media (max-width: 1080px) {
+    .title-img {
+        height: 40px;
+        width: 250px;
+        position: absolute;
+        top: 130px;
+    }
+}
+
+.home-img {
+    height: 400px;
+    width: 553px;
+    position: absolute;
+    top: 150px;
+    right: 40px;
+}
+
+@media (max-width: 1080px) {
+    .home-img {
+        height: 250px;
+        width: 350px;
+        position: absolute;
+        top: 280px;
+        left: 7px;
+    }
+}
+
+.ml6 {
+    position: relative;
+    font-size: 15px;
+    margin-top: 320px;
+    margin-left: 50px;
+    font-family: 'Roboto Mono', monospace;
+}
+
+@media (max-width: 1080px) {
+    .ml6 {
+        font-size: 15px;
+        margin-top: 200px;
+        margin-left: 10px;
+    }
+}
+
+.ml6 .text-wrapper {
+    position: relative;
+    display: inline-block;
+    padding-top: 0.2em;
+    padding-right: 0.05em;
+    padding-bottom: 0.1em;
+    overflow: hidden;
+}
+
+.ml6 .letter {
+    display: inline-block;
+    line-height: 1em;
+}
+
+/* ===== ABOUT SECTION ===== */
+.heading {
+    font-family: 'Montserrat', sans-serif;
+    color: #3573be;
+    margin: 20px 80px 10px 80px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.para-div {
+    margin: 20px 50px 20px 50px;
+}
+
+.about-para {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+}
+
+.roadmap-align {
+    background-color: #25dbd2;
+    color:white;
+    padding: 16px;
+    margin: 20px 50px 0px 50px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.roadmap-image {
+    height: 500px;
+    width: 850px;
+    display: block;
+    margin: 20px auto 10px auto;
+}
+
+.roadmap-para {
+    text-align: center;
+    font-family: 'Roboto Mono', monospace;
+    margin: 10px 80px 10px 80px;
+}
+
+/* ===== Community Section ===== */
+.comm-image {
+    border-radius: 30%;
+    height: 200px;
+    width: 200px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+.comm-image:hover {
+    transform: scale(1.02);
+    transition: 0.4s;
+}
+
+#community-section {
+    text-align: center;
+}
+
+.heading-domain {
+    font-size: 25px;
+    margin-bottom: 5px;
+    margin-top: 30px;
+    color: #25dbd2;
+    margin-left: 55px;
+    font-family: 'Montserrat', sans-serif;
+}
